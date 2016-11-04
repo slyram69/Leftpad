@@ -1,11 +1,10 @@
-module.exports = leftpad;
+module.exports = leftPad;
 
-function legtpad (str, len, ch){
-  //str = String(str);
+function leftPad (str, len, ch){
 
-  var padded_string = str;
-  for(var i=0; i<len; i++){
-    padded_string += "0";
+  var paddedString = str;
+  for(var i = 0; i < len; i++){
+     paddedString += "0";
   }
-
-return str;
+  return str;
+}

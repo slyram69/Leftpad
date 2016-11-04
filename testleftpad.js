@@ -1,3 +1,3 @@
-var leftpad = require('./mypad.js');
+var leftPad = require('./leftpad.js');
 
-console.log(leftfad('camel', 5, 1));
+console.log(leftPad('The Original Gangster slyram69', 5, 1));
